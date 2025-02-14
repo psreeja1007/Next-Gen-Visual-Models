@@ -28,4 +28,4 @@ A comprehensive exploration of modern image generation techniques and visual mod
 
 > To learn or revise these, refer [this](https://github.com/shoryasethia/Next-Gen-Visual-Models/tree/main/Week0/Content)
 
-> To test your understanding, reger [this](https://github.com/shoryasethia/Next-Gen-Visual-Models/tree/main/Week0/Assignment)
+> To test your understanding, refer [this](https://github.com/shoryasethia/Next-Gen-Visual-Models/tree/main/Week0/Assignment)

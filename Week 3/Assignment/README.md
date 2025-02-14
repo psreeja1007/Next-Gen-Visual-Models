@@ -27,4 +27,3 @@ While coding, these layers can be dense, convolutional or any other layers you f
 <div align="center">
   <img src="https://raw.githubusercontent.com/shoryasethia/Next-Gen-Visual-Models/main/Week3/Assignment/encoder-decoder.webp" alt="encoder-decoder-architecture">
 </div>
-

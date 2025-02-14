@@ -10,3 +10,13 @@
 !unzip chest-xray-pneumonia.zip
 ```
 > **Accuracy on testing data should be more than 60%**
+
+
+## Description of Assignment:
+
+- Used a CNN model on a dataset of **pneumonia** and **normal** X-rays.
+- Applied **data augmentation** for better generalization.
+- Added **batch normalization** to stabilize training.
+
+## Results
+- Achieved **80.13% accuracy** on the test set.
