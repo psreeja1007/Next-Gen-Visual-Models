@@ -31,14 +31,14 @@ The dataset contains feature vectors and class labels for classification. Prepro
 
 ## Results
 
-- **Pretrained Model Accuracy:** *0.58*  
+- **Pretrained Model Accuracy:** *0.59*  
 
-![History Plot](output_no_finetune.png)
+![History Plot](output_orig.png)
 
 
-- **Fine-tuned Model Accuracy:** *0.83*
+- **Fine-tuned Model Accuracy:** *0.86*
 
-![History Plot](output_finetune.png)
+![History Plot](output_finetuned.png)
 
 ## Inference
 
