@@ -25,10 +25,9 @@ The dataset contains feature vectors and class labels for classification. Prepro
 
 ## Training Details
 
-- **Pretrained Model:** Loaded and evaluated directly on the dataset.
+- **Pretrained Model:** Loaded and trained the model for the extra layers freezing the layers in base model
 - **Fine-tuning:**
-  - Further trained using the training split.
-  - Scikit-learn's `fit` method is used for fine-tuning.
+  - Unfreezed the base model layers and did the training again
 
 ## Results
 
