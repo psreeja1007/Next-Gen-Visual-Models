@@ -12,11 +12,62 @@
 > **Accuracy on testing data should be more than 60%**
 
 
-## Description of Assignment:
+# Pneumonia Detection from Chest X-Rays using CNN (TensorFlow/Keras)
 
-- Used a CNN model on a dataset of **pneumonia** and **normal** X-rays.
-- Applied **data augmentation** for better generalization.
-- Added **batch normalization** to stabilize training.
+This project implements a Convolutional Neural Network (CNN) to classify chest X-ray images into two categories: **Pneumonia** and **Normal**. It uses TensorFlow and Keras, along with data augmentation and regularization techniques, to improve generalization and prevent overfitting.
 
-## Results
-- Achieved **80.13% accuracy** on the test set.
+
+## 🩻 Dataset
+
+The dataset contains grayscale chest X-ray images and is divided into two classes:
+
+- **NORMAL**: Images of healthy lungs.
+- **PNEUMONIA**: Images showing pneumonia-infected lungs.
+
+The folder structure follows:
+
+data/
+├── train/
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+├── test/
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+
+
+## 🧠 Model Overview
+
+The model is a custom CNN architecture built from scratch, consisting of:
+
+- Multiple convolutional blocks with increasing filter sizes: 32, 64, 128, 256.
+- Each block includes Batch Normalization, LeakyReLU activation, and Max Pooling.
+- Flattening followed by a fully connected Dense layer of 512 units.
+- Dropout regularization (rate = 0.5) to reduce overfitting.
+- Final Dense layer with sigmoid activation for binary classification.
+
+
+## 📈 Training Strategy
+
+- **Data Augmentation**: Applied to the training set to introduce variations:
+  - Rescaling
+  - Shear transformations
+  - Zooming
+  - Horizontal flipping
+
+- **Regularization Techniques**:
+  - Batch Normalization after every convolutional layer
+  - Dropout in the fully connected layer
+  - LeakyReLU activations for better gradient flow
+
+- **Optimization**:
+  - Adam optimizer with a learning rate of `1e-4`
+  - Binary crossentropy as the loss function
+  - EarlyStopping and ReduceLROnPlateau callbacks for adaptive learning
+
+
+## ✅ Results
+
+- **Final Test Accuracy**: **84.13%**
+- The model demonstrates good generalization on unseen validation data and can serve as a baseline for medical image diagnosis tasks.
+
+![History Plot](output.png)
