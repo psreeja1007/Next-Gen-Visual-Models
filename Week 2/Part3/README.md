@@ -26,13 +26,15 @@ The dataset contains grayscale chest X-ray images and is divided into two classe
 
 The folder structure follows:
 
+```bash
 data/
 ├── train/
-│ ├── NORMAL/
-│ └── PNEUMONIA/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
 ├── test/
-│ ├── NORMAL/
-│ └── PNEUMONIA/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+```
 
 
 ## 🧠 Model Overview
