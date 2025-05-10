@@ -1,1 +1,0 @@
-These assignments are for revision of python basics required for this project
