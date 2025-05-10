@@ -4,7 +4,7 @@
 * Transfer Learning : Fine-Tune the chosen pre-trained model on CIFAR10 and then compare them
   
 
-# CIFAR-10 Image Classification using a pre-trained base model and then finetuning it
+# CIFAR-10 Image Classification using a pre-trained base model
 
 This project demonstrates how to first use a pretrained machine learning model for classification and then fine-tune it to improve performance. The workflow includes dataset preprocessing, model loading, fine-tuning, evaluation, and analysis of results.
 
