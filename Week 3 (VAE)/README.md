@@ -50,7 +50,6 @@ Each model's training process is tracked through the following plots:
 - **Reconstruction Loss vs Epochs**
 
 
-```markdown
 ### Model 1
 ![Model 1 History](images/model1_history.png)
 
