@@ -7,13 +7,13 @@ In this assignment, I implemented a **Deep Convolutional Generative Adversarial 
 - The dataset used is:
 Borhani, T. (2022). *Cat Dataset* [Data set]. Kaggle. [https://www.kaggle.com/datasets/borhanitrash/cat-dataset](https://www.kaggle.com/datasets/borhanitrash/cat-dataset)
 
--Number of Images: 29,843
+- Number of Images: 29,843
 
--Image Size: 64 x 64 pixels
+- Image Size: 64 x 64 pixels
 
--Image Format: PNG
+- Image Format: PNG
 
--Image Resolution: RGB (3 channels)
+- Image Resolution: RGB (3 channels)
 
 - I have used only 10000 out of them for fast training
 ![Dataset](dataset.png)
