@@ -103,7 +103,7 @@ chest_xray/
 
 ## 🌐 Gradio Demo
 
-Launch the demo by running `xray_app.py`.  
+Launch the demo by running `xray_app.py` using the saved model `pneumonia_model.keras`.  
 You’ll be able to:
 - Upload multiple chest X-ray images at once
 - Get a real-time prediction: **Normal** or **Pneumonia**
